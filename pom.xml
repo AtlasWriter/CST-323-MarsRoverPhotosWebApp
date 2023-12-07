@@ -14,7 +14,7 @@
 	<name>Milestone-MarsRoverWebApp</name>
 	<description>Mars rover web application</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
