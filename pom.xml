@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.6.0</version>
+		<version>3.2.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cst323</groupId>
@@ -14,7 +14,7 @@
 	<name>Milestone-MarsRoverWebApp</name>
 	<description>Mars rover web application</description>
 	<properties>
-		<java.version>8</java.version>
+		<java.version>19</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -66,7 +66,7 @@
 					<name>paketobuildpacks/builder-jammy-base:latest</name>
 					<builderImage>paketobuildpacks/builder-jammy-base:latest</builderImage>
 				</configuration>
-				<version>2.6.0</version>
+				<version>3.2.0</version>
 			</plugin>
 		</plugins>
 	</build>
